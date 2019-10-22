@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <children>
+        <TextField id="1" fx:id="first_name" layoutX="14.0" layoutY="14.0" prefHeight="25.0" prefWidth="219.0" promptText="First Name:" />
+        <TextField id="2" fx:id="last_name" layoutX="243.0" layoutY="14.0" prefHeight="25.0" prefWidth="219.0" promptText="Last Name:" />
+        <TextField id="3" fx:id="ps_id" layoutX="14.0" layoutY="66.0" prefHeight="25.0" prefWidth="219.0" promptText="Peoplesoft ID:" />
+        <TextField id="4" fx:id="grade_level" layoutX="243.0" layoutY="66.0" prefHeight="25.0" prefWidth="219.0" promptText="Grade Level:" />
+        <TextField id="5" fx:id="email_address" layoutX="14.0" layoutY="120.0" prefHeight="25.0" prefWidth="219.0" promptText="Email Address:" />
+        <TextField id="6" fx:id="street_address" layoutX="243.0" layoutY="120.0" prefHeight="25.0" prefWidth="219.0" promptText="Street Address:" />
+        <TextField id="7" fx:id="city" layoutX="14.0" layoutY="176.0" prefHeight="25.0" prefWidth="219.0" promptText="City:" />
+        <TextField id="8" fx:id="state" layoutX="243.0" layoutY="175.0" prefHeight="25.0" prefWidth="219.0" promptText="State:" />
+        <TextField id="9" fx:id="zipcode" layoutX="14.0" layoutY="227.0" prefHeight="25.0" prefWidth="219.0" promptText="Zip Code:" />
+        <Button id="10" layoutX="243.0" layoutY="227.0" mnemonicParsing="false" onMouseClicked="#buttonPressed" text="Submit" />
+      <Label fx:id="fnLabel" layoutX="14.0" layoutY="39.0" text="Label" textFill="RED" visible="false" />
+      <Label fx:id="lnLabel" layoutX="243.0" layoutY="39.0" text="Label" textFill="RED" visible="false" />
+      <Label fx:id="psLabel" layoutX="14.0" layoutY="91.0" text="Label" textFill="RED" visible="false" />
+      <Label fx:id="saLabel" layoutX="243.0" layoutY="145.0" text="Label" textFill="RED" visible="false" />
+      <Label fx:id="eaLabel" layoutX="14.0" layoutY="145.0" text="Label" textFill="RED" visible="false" />
+      <Label fx:id="glLabel" layoutX="243.0" layoutY="91.0" text="Label" textFill="RED" visible="false" />
+      <Label fx:id="stLabel" layoutX="243.0" layoutY="200.0" text="Label" textFill="RED" visible="false" />
+      <Label fx:id="ciLabel" layoutX="14.0" layoutY="200.0" text="Label" textFill="RED" visible="false" />
+      <Label fx:id="zcLabel" layoutX="14.0" layoutY="252.0" text="Label" textFill="RED" visible="false" />
+      <Label fx:id="submitLabel" layoutX="308.0" layoutY="231.0" text="Label" textFill="#5a00ff" visible="false" />
+    </children>
+</Pane>
